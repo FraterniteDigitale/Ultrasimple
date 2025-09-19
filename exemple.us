@@ -1,0 +1,48 @@
+Un script qui montre toutes les fonctionnalités de base en une seule démo :
+// Exemple complet UltraSimple v1.3
+
+affiche "=== Démo UltraSimple ===";
+
+x = 5;
+y = 3;
+affiche "x = " + x + ", y = " + y;
+
+si x > y alors {
+    affiche "x est plus grand que y";
+} sinon {
+    affiche "y est plus grand ou égal à x";
+}
+
+repet 3 fois {
+    affiche "Boucle numéro " + x;
+    x = x - 1;
+}
+
+fonction salut(nom) {
+    affiche "Salut " + nom + " !";
+}
+salut("Alice");
+
+ia "bonjour";
+ia "qui es tu ?";
+ia "comment ça va ?";
+ia "random blabla";
+
+attends 2;
+affiche "Fin du programme après une petite pause 💤";
+🚀 Utilisation
+Lance le script avec :
+python3 ultrasimple.py exemple.us
+Résultat attendu (extrait) :
+=== Démo UltraSimple ===
+x = 5, y = 3
+x est plus grand que y
+Boucle numéro 5
+Boucle numéro 4
+Boucle numéro 3
+Salut Alice !
+🤖 IA: Bonjour à toi aussi, humain !
+🤖 IA: Je suis une mini-IA locale dans UltraSimple.
+🤖 IA: Ça va très bien, merci ! Et toi ?
+🤖 IA: Tu as dit -> random blabla
+Fin du programme après une petite pause 💤
