@@ -1,0 +1,166 @@
+📖 Documentation UltraSimple v1.3 🚀
+
+UltraSimple est un langage de programmation minimaliste conçu pour les francophones. Il offre une expérience intuitive pour apprendre la logique de programmation en français, avec des commandes simples et naturelles. Idéal pour les débutants et les passionnés qui veulent découvrir le monde de la programmation.
+
+
+🌟 Introduction
+
+Pourquoi choisir UltraSimple ?
+
+• Facile à apprendre : Utilise des mots-clés en français tels que affiche, si, tant_que, etc.
+
+• Amusant et interactif : Intègre une mini-IA qui répond à vos commandes.
+
+• Polyvalent : Permet d’exécuter des scripts .us ou d’interagir dans une console REPL.
+
+Avec UltraSimple, la programmation devient accessible, ludique et naturelle.
+
+
+⚡ Caractéristiques principales
+
+• Instructions en français : Écrivez des scripts clairs et compréhensibles.
+
+• Mini-IA locale 🤖 : Réagit à des phrases comme “Bonjour” ou “Comment ça va ?”.
+
+• Boucles et conditions intuitives : Simplifie des concepts comme les répétitions et les tests logiques.
+
+• Mode interactif et exécution de fichiers : Lancez des commandes en direct ou exécutez des scripts .us.
+
+
+🛠️ Installation
+Sur Iphone veuillez télécharger (ISH) depuis l'App Store 
+Sur Android sous Termux ou Kali
+Sur L'ordi (Linux)
+Pré-requis
+
+• Python 3.x installé sur votre système.
+
+• Librairies Python nécessaires : colorama, lark.
+
+Étapes d’installation
+Sur  Android utiliser la commande pkg update ensuite pkg upgrade puis pkg add python3
+Sur linux sudo apt update && upgrade -y ensuite  apt install python3
+Sur iphone: une fois ish télécharger tapez la commande apk update ensuite apk upgrade puis installer python avec la commande apk add python3
+1. Clonez le dépôt UltraSimple:
+git clone https://github.com/FraterniteDigitale/UltraSimple.git
+cd UltraSimple
+2. Installez les dépendances:
+pip install -r requirements.txt
+🚀 Comment utiliser UltraSimple ?
+
+Mode interactif (REPL)
+
+1. Lancez le programme en mode interactif:
+python3 ultrasimple.py
+2. Vous verrez apparaître un logo accueillant et une invitation à écrire des commandes UltraSimple : 
+Exemple tapez 
+>>> affiche "Bonjour le monde !";
+Exemple de résultat :
+Bonjour le monde !
+
+Mode script
+
+1. Créez un fichier .us avec vos instructions, par exemple:fichier : hello.us
+affiche "Bienvenue dans UltraSimple !";
+ia "Bonjour";
+repet 3 fois { affiche "J'adore UltraSimple !"; }
+
+2. Exécutez le fichier:
+python3 ultrasimple.py hello.us
+📚 Syntaxe et commandes
+
+1. Afficher du texte ou des variables
+affiche "Bonjour !";
+x = 10;
+affiche "La valeur de x est " + x;
+Résultat :
+Bonjour !
+La valeur de x est 10
+2. Variables
+
+• UltraSimple gère les nombres (int, float) et les textes.
+nom = "Alice";
+age = 25;
+affiche nom + " a " + age + " ans.";
+3. Conditions : si / sinon
+x = 5;
+si x > 3 alors {
+    affiche "x est grand !";
+} sinon {
+    affiche "x est petit.";
+}
+4. Boucles : tant_que
+x = 0;
+tant_que x < 5 faire {
+    affiche "x = " + x;
+    x = x + 1;
+}
+5. Répétitions : repet
+repet 3 fois {
+    affiche "Ceci est une répétition.";
+}
+6. Fonctions
+
+• Définir une fonction :
+fonction salut(nom) {
+    affiche "Salut " + nom + " !";
+}
+• Appeler une fonction :
+salut("Alice");
+7. Pause : attends
+attends 2;
+affiche "Deux secondes ont passé.";
+8. Mini-IA intégrée
+
+• Parlez avec l’IA locale:
+ia "Bonjour";
+ia "Qui es-tu ?";
+🛠️ Exemple complet
+
+Script : jeu.us
+affiche "Bienvenue dans le mini-jeu UltraSimple !";
+
+nom = "Héros";
+points = 0;
+
+repet 3 fois {
+    ia "Bonjour";
+    points = points + 10;
+    affiche "Points actuels : " + points;
+}
+
+si points >= 30 alors {
+    affiche "Bravo, " + nom + " 🎉";
+} sinon {
+    affiche "Dommage, " + nom + " !";
+}
+Exécution :
+python3 ultrasimple.py jeu.us
+Résultat attendu :
+Bienvenue dans le mini-jeu UltraSimple !
+🤖 IA : Bonjour à toi aussi, humain !
+Points actuels : 10
+🤖 IA : Bonjour à toi aussi, humain !
+Points actuels : 20
+🤖 IA : Bonjour à toi aussi, humain !
+Points actuels : 30
+Bravo, Héros 🎉
+🔮 Améliorations futures
+
+• Ajout de structures de données (listes, dictionnaires).
+
+• Support des fichiers d’import (import utils;).
+
+• Export vers Python ou WebAssembly.
+
+• Tutoriels interactifs pour les débutants.
+
+
+📜 Licence et communauté
+
+• Licence : Open Source (MIT License).
+
+• Contributeurs : Rejoignez-nous sur GitHub pour améliorer UltraSimple.
+
+
+Avec UltraSimple, la programmation devient un jeu accessible à tous. 
