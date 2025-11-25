@@ -1,6 +1,5 @@
 UltraSimple 🚀
 Un langage naturel minimaliste en français
-
       __    _ __      __  _                 
      / /   (_) /___  / /_(_)___  ____  _____
     / /   / / __/ /_/ / / / __ \/ __ \/ ___/
