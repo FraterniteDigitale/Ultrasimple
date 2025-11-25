@@ -1,12 +1,15 @@
 UltraSimple 🚀
 Un langage naturel minimaliste en français
+
       __    _ __      __  _                 
      / /   (_) /___  / /_(_)___  ____  _____
     / /   / / __/ /_/ / / / __ \/ __ \/ ___/
    / /___/ / /_/ __  / / / /_/ / /_/ (__  ) 
   /_____/_/\__/_/ /_/_/_/ .___/ .___/____/  
                        /_/   /_/            
-       UltraSimple v1.3 - Langage naturel en français 🚀
+
+UltraSimple v1.3 - Langage naturel en français 🚀
+
 🌍 Présentation
 UltraSimple est un langage multi-os de programmation minimaliste et francophone, pensé pour :
 apprendre la logique de code sans barrière de langue,
