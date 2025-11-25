@@ -1,5 +1,7 @@
 UltraSimple 🚀
 Un langage naturel minimaliste en français
+
+'''ASCII
       __    _ __      __  _                 
      / /   (_) /___  / /_(_)___  ____  _____
     / /   / / __/ /_/ / / / __ \/ __ \/ ___/
